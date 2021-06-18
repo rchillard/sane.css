@@ -3,7 +3,7 @@ Stylesheet that normalizes behaviors only across modern browsers while providing
 
 ```css
 img:not([alt]) {
-	filter: blur(10px);
+  filter: blur(10px);
 }
 ```
 
