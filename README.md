@@ -1,5 +1,13 @@
 # sane.css
-CSS reset that normalizes for modern browsers while providing sane defaults for web development.
+Stylesheet that normalizes behaviors only across modern browsers while providing sane defaults.  This combines the idea of a basic boilerplate, a CSS reset, and sane defaults.  Using a stylesheet like [sane.css](https://github.com/rchillard/sane.css/blob/main/sane.css) drives consistency, but it can also have added benefits.  Benefits such as built in protection for inaccessible images:
+
+```css
+img:not([alt]) {
+	filter: blur(10px);
+}
+```
+
+I love this rule the most, because it blurs images without alt text.  With this rule in place, any frontend developer can easily _see_ when they've left an image without an alt tag.
 
 ## Influences
 [sane.css](https://github.com/rchillard/sane.css/blob/main/sane.css) combines three different approaches:
