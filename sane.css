@@ -40,7 +40,7 @@ html:focus-within {
  */
 body {
 	margin: 0; /* 1 */
-	min-height: 100vh; /* 2 */
+	min-block-size: 100vb; /* 2 */
 	text-rendering: optimizeSpeed; /* 3 */
 }
 
@@ -49,7 +49,8 @@ body {
  */
 h1 {
 	font-size: 2em;
-	margin: 0.67em 0;
+	margin-block: 0.67em;
+	margin-inline: 0;
 }
 
 /* Remove default margins. */
@@ -73,7 +74,7 @@ dd {
  */
 hr {
 	box-sizing: content-box; /* 1 */
-	height: 0; /* 1 */
+	block-size: 0; /* 1 */
 	overflow: visible; /* 2 */
 }
 
@@ -138,11 +139,11 @@ sup {
 }
 
 sub {
-	bottom: -0.25em;
+	inset-block-end: -0.25em;
 }
 
 sup {
-	top: -0.5em;
+	inset-block-start: -0.5em;
 }
 
 /* Multimedia
@@ -161,7 +162,7 @@ video {
 /* Make images easier to work with */
 img,
 picture {
-	max-width: 100%;
+	max-inline-size: 100%;
 	display: block;
 }
 
@@ -238,7 +239,7 @@ fieldset {
 legend {
 	box-sizing: border-box; /* 1 */
 	display: table; /* 1 */
-	max-width: 100%; /* 1 */
+	max-inline-size: 100%; /* 1 */
 	padding: 0; /* 2 */
 	white-space: normal; /* 1 */
 }
