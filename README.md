@@ -35,9 +35,9 @@ Andy Bell's CSS reset features several improvements for sanity and accessiblilit
 - A media query for prefers-reduced-motion that removes animation, transition, and scroll behavior
 
 ## Known Shortcomings
-This stylesheet does not have print styles.  If you need print styles, I recommend you checkout [HTML 5 Boilerplate](https://github.com/h5bp/main.css/blob/4913db5a714806ce3c26ad93899abc30066f494c/dist/main.css#L179).
+This stylesheet does not have print styles.  If you need print styles, you should checkout [HTML 5 Boilerplate](https://github.com/h5bp/main.css/blob/4913db5a714806ce3c26ad93899abc30066f494c/dist/main.css#L179).
 
-This stylesheet does not accommodate Internet Explorer.  In fact, rules to cover IE that were a part of major influences have been removed.  This is an intentional choice as a result of Microsoft announcing [End of Life for IE](https://docs.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support).
+This stylesheet does not accommodate Internet Explorer.  In fact, rules to cover IE have been removed.  This is an intentional choice as a result of Microsoft announcing [End of Life for IE](https://docs.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support).
 
 # Contributing
 While this stylesheet is primarily here for my personal projects, I'm open to and would love to hear suggested improvements.  Feel free to open an issue to start a discussion or propose an improvement.
